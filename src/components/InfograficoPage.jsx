@@ -527,7 +527,7 @@ Por favor, retorne uma planilha com as fórmulas aplicadas e um relatório com s
                 <div className="container mx-auto">
                     <p className="mb-2">Acadêmicos: Ana Carolina Barichello, Anna Caroline R. da Luz, Lucas José G. da Silva e Adriana S. Pereira.</p>
                     <p className="mb-2">Orientação: Profª. Dra. Rosangela Ferreira Prestes e Prof. Dr. João Carlos Krause.</p>
-                    <p>Programa Amanhã</p>
+                    <p>Programa Professor do Amanhã - URI Santo Ângelo/RS</p>
                 </div>
             </footer>
         </div>
