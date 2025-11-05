@@ -525,7 +525,7 @@ Por favor, retorne uma planilha com as fórmulas aplicadas e um relatório com s
            {/* --- Rodapé --- */}
 <footer className="bg-gray-900/50 text-gray-400 text-center py-8 px-4 border-t border-gray-700">
                 <div className="container mx-auto">
-                    <p className="mb-2">Acadêmicos: Ana Carolina Barichello, Anna Caroline R. da Luz, Lucas José G. da Silva e Adriana S. Pereira.</p>
+                    <p className="mb-2">Acadêmicos: Lucas José G. da Silva, Ana Carolina Barichello, Anna Caroline R. da Luz e Adriana S. Pereira.</p>
                     <p className="mb-2">Orientação: Profª. Dra. Rosangela Ferreira Prestes e Prof. Dr. João Carlos Krause.</p>
                     <p>Programa Professor do Amanhã - URI Santo Ângelo/RS</p>
                 </div>
