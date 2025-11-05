@@ -508,13 +508,13 @@ Por favor, retorne uma planilha com as fórmulas aplicadas e um relatório com s
                             <div className="flex justify-center mb-6">
                                 <CheckCircle className="w-16 h-16 text-green-400" />
                             </div>
-                            <h2 className="text-3xl font-bold mb-4">Transforme o Ensino de Planilhas</h2>
+                            <h2 className="text-3xl font-bold mb-4">Guia Completo para o Professor</h2>
                             <p className="text-gray-300 text-lg mb-6">
-                                Esta abordagem pedagógica com IA não apenas facilita o aprendizado de planilhas, mas também prepara os alunos para os desafios do mercado de trabalho moderno, focando em análise crítica e interpretação de dados.
+                                Acesse o Manual do Professor com o passo a passo detalhado, objetivos pedagógicos e sugestões de atividades para aplicar a metodologia "Excel Inteligente" em sala de aula.
                             </p>
 <a href={manualProfessorPDF} target="_blank" rel="noopener noreferrer">
 	                                <Button size="lg" className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold px-8 py-3 rounded-lg">
-	                                    Baixar Manual do Professor
+	                                    Acessar o Guia Pedagógico (PDF)
 	                                </Button>
 	                            </a>
                         </div>
