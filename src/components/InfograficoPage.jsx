@@ -416,14 +416,21 @@ GlobalTrade Inc.,300000,285000,310000`;
                         <div className="p-8">
                             <div className="bg-gray-800/70 p-6 rounded-lg mb-4 font-mono text-sm">
                                 <p className="text-gray-300 leading-relaxed">
-                                    "Analise esta planilha de despesas empresariais e me ajude com o seguinte:<br/><br/>
-                                    1. Calcule o crescimento percentual de cada empresa entre 2022 e 2024<br/>
-                                    2. Identifique qual empresa teve o maior crescimento absoluto<br/>
-                                    3. Crie fórmulas para calcular a média de gastos por empresa<br/>
-                                    4. Gere um gráfico de barras comparando as despesas por ano<br/>
-                                    5. Forneça um resumo executivo com insights sobre as tendências<br/><br/>
-                                    Por favor, retorne uma planilha com as fórmulas aplicadas e um relatório com suas análises."
-                                </p>
+                        "Analise a planilha de despesas empresariais anexa e execute as seguintes tarefas de forma completa e automática:<br/><br/>
+420	                                    1.  **Análise de Dados:**<br/>
+421	                                        *   Calcule o crescimento percentual de despesas de cada empresa entre 2022 e 2024.<br/>
+422	                                        *   Identifique a empresa com o maior crescimento absoluto de despesas no mesmo período.<br/>
+423	                                        *   Calcule a média de gastos por empresa ao longo dos três anos.<br/><br/>
+424	                                    2.  **Geração de Entregáveis:**<br/>
+425	                                        *   Crie um **Relatório de Análise** em Markdown (.md) com um Resumo Executivo e insights sobre as tendências.<br/>
+426	                                        *   Gere um **Gráfico de Barras** comparando as despesas por empresa e ano, salvando-o como imagem (.png).<br/>
+427	                                        *   Crie uma **Planilha Excel Final** (.xlsx) com as seguintes abas:<br/>
+428	                                            *   **"Dados Brutos"**: Contendo os dados originais.<br/>
+429	                                            *   **"Análise Completa"**: Contendo os dados originais e os resultados dos cálculos (crescimento percentual, crescimento absoluto e média de gastos).<br/>
+430	                                            *   **"Gráfico e TD"**: Contendo o gráfico de barras incorporado como imagem e as instruções detalhadas para a criação manual da Tabela Dinâmica.<br/><br/>
+431	                                    3.  **Instruções para Tabela Dinâmica (TD) e Fórmulas:**<br/>
+432	                                        *   No Relatório de Análise, inclua uma seção com o **passo a passo detalhado** para a criação da Tabela Dinâmica no Excel, utilizando os dados da aba "Dados Brutos".<br/>
+433	                                        *   Inclua também uma tabela com as **fórmulas utilizadas** para os cálculos de crescimento e média, mostrando como elas seriam aplicadas no Excel (ex: =(D2-B2)/B2)."                     </p>
                             </div>
                             <div className="text-center">
                                 <Button onClick={copyPrompt} className="bg-purple-600 hover:bg-purple-700 text-white">
