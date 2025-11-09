@@ -166,15 +166,24 @@ GlobalTrade Inc.,300000,285000,310000`;
 
     // Função para copiar prompt
     const copyPrompt = () => {
-        const promptText = `Analise esta planilha de despesas empresariais e me ajude com o seguinte:
+        const promptText = `Analise a planilha de despesas empresariais anexa e execute as seguintes tarefas de forma completa e automática:
 
-1. Calcule o crescimento percentual de cada empresa entre 2022 e 2024
-2. Identifique qual empresa teve o maior crescimento absoluto
-3. Crie fórmulas para calcular a média de gastos por empresa
-4. Gere um gráfico de barras comparando as despesas por ano
-5. Forneça um resumo executivo com insights sobre as tendências
+1.  **Análise de Dados:**
+    *   Calcule o crescimento percentual de despesas de cada empresa entre 2022 e 2024.
+    *   Identifique a empresa com o maior crescimento absoluto de despesas no mesmo período.
+    *   Calcule a média de gastos por empresa ao longo dos três anos.
 
-Por favor, retorne uma planilha com as fórmulas aplicadas e um relatório com suas análises.`;
+2.  **Geração de Entregáveis:**
+    *   Crie um **Relatório de Análise** em Markdown (.md) com um Resumo Executivo e insights sobre as tendências.
+    *   Gere um **Gráfico de Barras** comparando as despesas por empresa e ano, salvando-o como imagem (.png).
+    *   Crie uma **Planilha Excel Final** (.xlsx) com as seguintes abas:
+        *   **"Dados Brutos"**: Contendo os dados originais.
+        *   **"Análise Completa"**: Contendo os dados originais e os resultados dos cálculos (crescimento percentual, crescimento absoluto e média de gastos).
+        *   **"Gráfico e TD"**: Contendo o gráfico de barras incorporado como imagem e as instruções detalhadas para a criação manual da Tabela Dinâmica.
+
+3.  **Instruções para Tabela Dinâmica (TD) e Fórmulas:**
+    *   No Relatório de Análise, inclua uma seção com o **passo a passo detalhado** para a criação da Tabela Dinâmica no Excel, utilizando os dados da aba "Dados Brutos".
+    *   Inclua também uma tabela com as **fórmulas utilizadas** para os cálculos de crescimento e média, mostrando como elas seriam aplicadas no Excel (ex: =(D2-B2)/B2).`;
 
         navigator.clipboard.writeText(promptText).then(() => {
             alert('Prompt copiado para a área de transferência!');
